@@ -72,7 +72,8 @@ Conforme a los requerimientos de la actividad, el sitio incorpora:
 * Archivo Texto Plano: [`agente.txt`](file:///home/tapia/.gemini/antigravity/scratch/proyecto_web_empresarial/agente.txt)
 
 ### 5.2. URL en Servidor Web Gratuito
-* **URL de Producción en Vivo:** Disponible y verificada con protocolo HTTPS.
+* **URL de Producción en Vivo (HTTPS):** [https://blaster-ops.github.io/aroma-y-grano-web/](https://blaster-ops.github.io/aroma-y-grano-web/)
+* **Repositorio de Código Fuente en GitHub:** [https://github.com/blaster-ops/aroma-y-grano-web](https://github.com/blaster-ops/aroma-y-grano-web)
 
 ---
 

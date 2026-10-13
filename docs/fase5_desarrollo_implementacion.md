@@ -103,7 +103,7 @@ Se ejecutó una batería de pruebas sobre el código final:
 | **QA-06** | **Filtros de Galería** | Clic sucesivo en cada categoría de la galería. | Mostrar solo las fotos correspondientes y "Todos" al pulsar la opción global. | Filtros reactivos con animación suave y recuento correcto. | **APROBADO** |
 | **QA-07** | **Cotizador Interactivo** | Modificación de variedad, molienda y kilogramos. | El subtotal numérico se recalcula instantáneamente y actualiza el texto de cotización. | Cálculo matemático exacto y transferencia exitosa al formulario. | **APROBADO** |
 | **QA-08** | **Sintaxis JavaScript** | Ejecución de verificación sintáctica con motor Node.js (`node -c js/app.js`). | Cero errores de sintaxis o referencias nulas. | Verificación limpia con código de salida 0. | **APROBADO** |
-| **QA-09** | **Despliegue y Conectividad** | Despliegue en servidor estático gratuito y prueba de cabecera HTTP con `curl -I`. | Código de respuesta HTTP `200 OK` con SSL/HTTPS activo. | Servidor respondiendo con HTTP/2 200 OK en URL pública. | **APROBADO** |
+| **QA-09** | **Despliegue y Conectividad** | Despliegue en servidor estático gratuito y prueba de cabecera HTTP con `curl -I`. | Código de respuesta HTTP `200 OK` con SSL/HTTPS activo. | Servidor respondiendo con HTTP/2 200 OK en `https://blaster-ops.github.io/aroma-y-grano-web/`. | **APROBADO** |
 
 ---
 
