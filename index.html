@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aroma &amp; Grano | Tostaduría Artesanal &amp; Café de Especialidad</title>
+  
+  <!-- Metadatos de SEO y Redes Sociales -->
+  <meta name="description" content="Aroma &amp; Grano - Tostaduría artesanal de café de especialidad. Cafés de origen, micro-lotes de altura, suscripciones, talleres de barismo y catering corporativo. [Simulado]">
+  <meta name="author" content="WebCorp-Architect AI para Aroma &amp; Grano">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Aroma &amp; Grano | Tostaduría Artesanal &amp; Café de Especialidad">
+  <meta property="og:description" content="Del origen a tu taza: la alquimia del café consciente y de comercio justo.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  
+  <!-- Google Fonts: Playfair Display & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5.3 CSS Oficial -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Hoja de Estilos Personalizada -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100">
+
+  <!-- Enlace Accesible de Omisión para Lectores de Pantalla y Teclado (WCAG AA) -->
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <!-- ==========================================================================
+       BARRA SUPERIOR DE INFORMACIÓN (TOPBAR)
+       ========================================================================== -->
+  <aside class="topbar d-none d-md-block" aria-label="Información rápida de contacto">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center gap-4">
+        <span><i class="bi bi-geo-alt-fill text-warning me-1" aria-hidden="true"></i> Calle de los Artesanos #45-18, Barrio Histórico</span>
+        <span><i class="bi bi-clock-fill text-warning me-1" aria-hidden="true"></i> Lun - Sáb: 7:30 AM - 7:00 PM</span>
+        <span class="badge bg-secondary text-light">Caso Simulado</span>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <a href="tel:+573001234567" aria-label="Llamar a la tostaduría"><i class="bi bi-telephone-fill me-1" aria-hidden="true"></i> (+57) 300 123 4567</a>
+        <span class="text-secondary">|</span>
+        <a href="mailto:hola@aromaygrano.com" aria-label="Enviar correo"><i class="bi bi-envelope-fill me-1" aria-hidden="true"></i> hola@aromaygrano.com</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       BARRA DE NAVEGACIÓN PRINCIPAL (NAVBAR)
+       ========================================================================== -->
+  <header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top custom-navbar" aria-label="Navegación principal del sitio web">
+      <div class="container">
+        <!-- Logotipo Oficial -->
+        <a class="navbar-brand d-flex align-items-center" href="#inicio" aria-label="Aroma &amp; Grano - Volver al Inicio">
+          <img src="img/logo.svg" alt="Aroma &amp; Grano Tostaduría Artesanal" height="48">
+        </a>
+        
+        <!-- Botón Menú Hamburguesa Accesible -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Abrir menú de navegación principal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Enlaces del Menú -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+          <ul class="navbar-nav align-items-lg-center gap-lg-1 my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cotizador">Cotizador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#promociones">Promociones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">Preguntas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <a class="btn btn-coffee-primary btn-sm-coffee w-100" href="#cotizador">
+                <i class="bi bi-cup-hot-fill" aria-hidden="true"></i> Pedir Café
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==========================================================================
+       CONTENIDO PRINCIPAL
+       ========================================================================== -->
+  <main id="main-content">
+
+    <!-- 1. SECCIÓN INICIO / HERO -->
+    <section id="inicio" class="hero-section" aria-labelledby="heroHeading">
+      <div class="hero-overlay-pattern"></div>
+      <div class="container position-relative z-2">
+        <div class="row align-items-center g-5">
+          
+          <div class="col-lg-7">
+            <div class="hero-badge-tag">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              <span>Tostaduría de Especialidad &bull; Comercio Directo [Simulado]</span>
+            </div>
+            
+            <h1 id="heroHeading" class="hero-title">
+              El Arte del Café de Especialidad <span>Tostado en Pequeños Lotes</span>
+            </h1>
+            
+            <p class="hero-lead">
+              Seleccionamos microlotes de alta montaña a más de 1.700 msnm, desarrollando curvas de tueste a la medida que exaltan notas florales, dulces y afrutadas sin alterar su esencia.
+            </p>
+            
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#productos" class="btn btn-coffee-primary">
+                <i class="bi bi-bag-check-fill" aria-hidden="true"></i> Explorar Variedades
+              </a>
+              <a href="#nosotros" class="btn btn-coffee-outline text-white border-white">
+                <i class="bi bi-info-circle-fill" aria-hidden="true"></i> Conocer la Tostaduría
+              </a>
+            </div>
+
+            <!-- Sellos de Confianza y Calidad -->
+            <div class="hero-feature-pills">
+              <div class="hero-pill">
+                <i class="bi bi-award-fill text-warning" aria-hidden="true"></i>
+                <span>100% Arábica de Altura</span>
+              </div>
+              <div class="hero-pill">
+                <i class="bi bi-heart-pulse-fill text-warning" aria-hidden="true"></i>
+                <span>Trato Directo con Caficultores</span>
+              </div>
+              <div class="hero-pill">
+                <i class="bi bi-fire text-warning" aria-hidden="true"></i>
+                <span>Tueste Semanal Garantizado</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-image-wrapper">
+              <div class="hero-img-card">
+                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" 
+                     alt="Maestro tostador inspeccionando granos de café recién tostados en el tambor de la tostaduría" 
+                     width="800" height="440" loading="eager">
+              </div>
+              
+              <!-- Tarjeta Flotante Interactiva de Valoración -->
+              <div class="hero-floating-card">
+                <div class="bg-warning text-dark p-2 rounded-circle d-flex align-items-center justify-content-center" style="width: 44px; height: 44px;">
+                  <i class="bi bi-star-fill fs-5" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="fw-bold fs-6">86.5+ Puntos SCA</div>
+                  <small class="text-muted">Promedio de Calidad de Catación</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SECCIÓN NOSOTROS (INFORMACIÓN DE LA EMPRESA) -->
+    <section id="nosotros" class="about-section" aria-labelledby="aboutHeading">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag"><i class="bi bi-building" aria-hidden="true"></i> Nuestra Identidad</span>
+          <h2 id="aboutHeading" class="section-title">Pasión por el Grano, Respeto por el Origen</h2>
+          <p class="section-desc">
+            En <strong>Aroma &amp; Grano</strong> concebimos el café no como un producto masivo, sino como el fruto noble del trabajo de familias campesinas y la ciencia del tueste preciso.
+          </p>
+        </div>
+
+        <div class="row align-items-center g-5 mb-5">
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" 
+                   class="img-fluid rounded-4 shadow-lg w-100" 
+                   alt="Ambiente acogedor de nuestra barra de café de especialidad con baristas preparando extracciones manuales"
+                   loading="lazy">
+              <div class="position-absolute bottom-0 start-0 bg-dark text-white p-3 m-3 rounded-3 opacity-90 d-none d-sm-block">
+                <small class="text-warning fw-bold text-uppercase d-block">Filosofía de Tueste</small>
+                <span class="small">Lotes reducidos a 5 kg para control milimétrico de temperatura</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="h3 mb-3">Del Campo a tu Taza con Transparencia Total</h3>
+            <p class="text-secondary mb-3">
+              Fundada en 2021 <code>[Simulado]</code>, Aroma &amp; Grano nació tras recorrer cordilleras cafetaleras y constatar la disparidad económica que sufren los productores tradicionales. Decidimos eliminar intermediarios y pagar hasta un <strong>40% por encima del precio internacional</strong> a caficultores comprometidos con prácticas agroecológicas.
+            </p>
+            <p class="text-secondary mb-4">
+              Cada bolsa que sale de nuestro taller cuenta con trazabilidad total: nombre de la finca, altitud de cosecha, variedad botánica, método de beneficio (lavado, honey o natural anaeróbico) y la fecha exacta en que fue tostado.
+            </p>
+
+            <div class="quote-box">
+              <p>"Un café excepcional no necesita azúcar ni disfraces; solo necesita respeto en el origen y precisión en el fuego."</p>
+              <div class="fw-bold text-dark">— Mateo Echeverry, Maestro Tostador Q-Grader <code>[Simulado]</code></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Métricas Cuantitativas de Impacto -->
+        <div class="row g-4">
+          <div class="col-6 col-md-3">
+            <div class="about-card-stat">
+              <div class="stat-number">+18</div>
+              <div class="stat-label">Familias Productoras Aliadas</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="about-card-stat">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Empaques Compostables</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="about-card-stat">
+              <div class="stat-number">88.5</div>
+              <div class="stat-label">Puntaje Máximo SCA Obtenido</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="about-card-stat">
+              <div class="stat-number">4.9 ★</div>
+              <div class="stat-label">Calificación Promedio de Clientes</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. SECCIÓN PRODUCTOS O SERVICIOS -->
+    <section id="productos" class="products-section" aria-labelledby="productsHeading">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag"><i class="bi bi-grid-fill" aria-hidden="true"></i> Catálogo Comercial</span>
+          <h2 id="productsHeading" class="section-title">Cafés de Origen &amp; Servicios de Especialidad</h2>
+          <p class="section-desc">
+            Disfruta de nuestros microlotes en grano entero o con molienda fresca personalizada para tu método favorito (V60, Chemex, Espresso, Prensa Francesa o Cafetera Italiana).
+          </p>
+        </div>
+
+        <!-- Fila de Cafés de Origen -->
+        <div class="row g-4 mb-5">
+          
+          <!-- Producto 1: Geisha Los Andes -->
+          <div class="col-md-6 col-lg-4">
+            <article class="product-card">
+              <div class="product-img-holder">
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" 
+                     alt="Taza de café Geisha filtrado en método V60 mostrando color ámbar brillante" 
+                     loading="lazy">
+                <span class="sca-score-badge"><i class="bi bi-star-fill text-warning me-1" aria-hidden="true"></i>88.5 SCA</span>
+              </div>
+              <div class="product-body">
+                <div class="product-origin"><i class="bi bi-geo-alt-fill me-1" aria-hidden="true"></i>Finca La Esperanza &bull; 1.850 msnm</div>
+                <h3 class="product-title">Geisha Los Andes [Lote Oro]</h3>
+                <p class="text-secondary small mb-3">
+                  Variedad legendaria de acidez cítrica compleja y sedosidad elegante. Perfil de tueste ligero que preserva sus fragancias exóticas.
+                </p>
+                <div class="product-notes">
+                  <span class="note-pill">Jazmín</span>
+                  <span class="note-pill">Bergamota</span>
+                  <span class="note-pill">Melocotón</span>
+                  <span class="note-pill">Miel</span>
+                </div>
+                <div class="product-price-row">
+                  <div>
+                    <div class="price-tag">$45.000 <span class="price-unit">COP / 250g</span></div>
+                    <small class="text-muted d-block">$140.000 / Kg</small>
+                  </div>
+                  <a href="#cotizador" class="btn btn-coffee-primary btn-sm-coffee">
+                    <i class="bi bi-cart-plus-fill" aria-hidden="true"></i> Cotizar
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Producto 2: Bourbon Rosado -->
+          <div class="col-md-6 col-lg-4">
+            <article class="product-card">
+              <div class="product-img-holder">
+                <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=600&q=80" 
+                     alt="Granos de café tostado artesanal Bourbon Rosado en bandeja de madera" 
+                     loading="lazy">
+                <span class="sca-score-badge"><i class="bi bi-star-fill text-warning me-1" aria-hidden="true"></i>86.5 SCA</span>
+              </div>
+              <div class="product-body">
+                <div class="product-origin"><i class="bi bi-geo-alt-fill me-1" aria-hidden="true"></i>Valle Central &bull; 1.720 msnm</div>
+                <h3 class="product-title">Bourbon Rosado Anaeróbico</h3>
+                <p class="text-secondary small mb-3">
+                  Fermentación lenta de 72 horas en tanque sellado. Dulzura intensa a frutos silvestres y cuerpo meloso envolvente.
+                </p>
+                <div class="product-notes">
+                  <span class="note-pill">Frutos Rojos</span>
+                  <span class="note-pill">Cacao 70%</span>
+                  <span class="note-pill">Vino Tinto</span>
+                  <span class="note-pill">Caramelo</span>
+                </div>
+                <div class="product-price-row">
+                  <div>
+                    <div class="price-tag">$36.000 <span class="price-unit">COP / 250g</span></div>
+                    <small class="text-muted d-block">$98.000 / Kg</small>
+                  </div>
+                  <a href="#cotizador" class="btn btn-coffee-primary btn-sm-coffee">
+                    <i class="bi bi-cart-plus-fill" aria-hidden="true"></i> Cotizar
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Producto 3: Castillo Selección -->
+          <div class="col-md-6 col-lg-4">
+            <article class="product-card">
+              <div class="product-img-holder">
+                <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=600&q=80" 
+                     alt="Bolsa de café en grano artesanal con etiqueta de trazabilidad" 
+                     loading="lazy">
+                <span class="sca-score-badge"><i class="bi bi-star-fill text-warning me-1" aria-hidden="true"></i>84.0 SCA</span>
+              </div>
+              <div class="product-body">
+                <div class="product-origin"><i class="bi bi-geo-alt-fill me-1" aria-hidden="true"></i>Sierra Alta &bull; 1.600 msnm</div>
+                <h3 class="product-title">Castillo Tradición Lavado</h3>
+                <p class="text-secondary small mb-3">
+                  El equilibrio clásico perfecto. Acidez balanceada, dulzura a panela y notas a frutos secos tostados. Ideal para espresso diario y capuchinos.
+                </p>
+                <div class="product-notes">
+                  <span class="note-pill">Panela Dulce</span>
+                  <span class="note-pill">Avellana</span>
+                  <span class="note-pill">Manzana</span>
+                  <span class="note-pill">Vainilla</span>
+                </div>
+                <div class="product-price-row">
+                  <div>
+                    <div class="price-tag">$28.000 <span class="price-unit">COP / 250g</span></div>
+                    <small class="text-muted d-block">$68.000 / Kg</small>
+                  </div>
+                  <a href="#cotizador" class="btn btn-coffee-primary btn-sm-coffee">
+                    <i class="bi bi-cart-plus-fill" aria-hidden="true"></i> Cotizar
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <!-- Fila de Servicios Formativos y Experiencias -->
+        <div class="row g-4">
+          
+          <div class="col-md-4">
+            <div class="service-feature-card">
+              <div class="service-icon-box">
+                <i class="bi bi-calendar-check" aria-hidden="true"></i>
+              </div>
+              <h3 class="h4 mb-2">Club de Suscripción Mensual</h3>
+              <p class="text-secondary small mb-3">
+                Recibe 2 bolsas de microlotes exclusivos en tu puerta cada 30 días, con ficha sensorial y 15% de descuento en talleres y eventos.
+              </p>
+              <div class="mt-auto">
+                <span class="fw-bold text-dark d-block mb-3">Desde $65.000 COP / mes</span>
+                <a href="#contacto" class="btn btn-coffee-outline btn-sm-coffee w-100">Suscribirme al Club</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-feature-card">
+              <div class="service-icon-box">
+                <i class="bi bi-mortarboard" aria-hidden="true"></i>
+              </div>
+              <h3 class="h4 mb-2">Talleres de Barismo &amp; Catas</h3>
+              <p class="text-secondary small mb-3">
+                Cursos prácticos de 4 horas impartidos en nuestra tostaduría: calibración de molienda, técnicas V60, Chemex y cata sensorial guiada.
+              </p>
+              <div class="mt-auto">
+                <span class="fw-bold text-dark d-block mb-3">$120.000 COP por participante</span>
+                <a href="#contacto" class="btn btn-coffee-outline btn-sm-coffee w-100">Reservar Taller</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-feature-card">
+              <div class="service-icon-box">
+                <i class="bi bi-briefcase" aria-hidden="true"></i>
+              </div>
+              <h3 class="h4 mb-2">Catering de Café Corporativo</h3>
+              <p class="text-secondary small mb-3">
+                Instalación de barra móvil de espresso y filtrados para congresos, convenciones y oficinas. Incluye barista profesional y vajilla ecológica.
+              </p>
+              <div class="mt-auto">
+                <span class="fw-bold text-dark d-block mb-3">Cotización a medida por evento</span>
+                <a href="#contacto" class="btn btn-coffee-outline btn-sm-coffee w-100">Cotizar para Empresa</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. COTIZADOR INTERACTIVO / CALCULADORA DE CAFÉ (RF-09) -->
+    <section id="cotizador" class="calculator-section" aria-labelledby="calcHeading">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag bg-warning text-dark"><i class="bi bi-calculator" aria-hidden="true"></i> Simulador Dinámico</span>
+          <h2 id="calcHeading" class="section-title text-white">Calcula tu Pedido o Cotización en Vivo</h2>
+          <p class="section-desc text-light opacity-75">
+            Selecciona la variedad de café, el tipo de molienda requerida y el peso en kilogramos para obtener un presupuesto estimado al instante con descuentos por volumen.
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          
+          <div class="col-lg-7">
+            <div class="calculator-card">
+              <form id="coffeeCalcForm">
+                
+                <div class="calc-control-group">
+                  <label for="calcOrigin"><i class="bi bi-flower1 me-1 text-warning" aria-hidden="true"></i> Variedad de Café de Especialidad:</label>
+                  <select id="calcOrigin" class="calc-select" aria-label="Selecciona la variedad de café">
+                    <option value="geisha">Geisha Los Andes (88.5 SCA) - $140.000 / Kg</option>
+                    <option value="bourbon">Bourbon Rosado Anaeróbico (86.5 SCA) - $98.000 / Kg</option>
+                    <option value="castillo" selected>Castillo Tradición Lavado (84.0 SCA) - $68.000 / Kg</option>
+                    <option value="blend">Blend Tostaduría Casa - $55.000 / Kg</option>
+                  </select>
+                </div>
+
+                <div class="calc-control-group">
+                  <label for="calcGrind"><i class="bi bi-gear-wide-connected me-1 text-warning" aria-hidden="true"></i> Tipo de Molienda para tu Cafetera:</label>
+                  <select id="calcGrind" class="calc-select" aria-label="Selecciona el tipo de molienda">
+                    <option value="grano">Grano Entero (Recomendado para máxima frescura)</option>
+                    <option value="fina">Fina (Para máquina de Espresso)</option>
+                    <option value="media" selected>Media (Para V60, Chemex y Cafetera de Goteo)</option>
+                    <option value="gruesa">Gruesa (Para Prensa Francesa y Cold Brew)</option>
+                    <option value="moka">Moka Italiana (Molienda media-fina)</option>
+                  </select>
+                </div>
+
+                <div class="calc-control-group">
+                  <label for="calcWeight"><i class="bi bi-speedometer2 me-1 text-warning" aria-hidden="true"></i> Cantidad Requerida (Kilogramos):</label>
+                  <input type="number" id="calcWeight" class="calc-input" min="1" max="100" value="2" step="1" aria-label="Ingresa la cantidad en kilogramos">
+                  <small class="text-light opacity-75 mt-1 d-block">
+                    <i class="bi bi-info-circle me-1" aria-hidden="true"></i> 5 kg o más: 5% de descuento &bull; 10 kg o más: 12% de descuento mayorista.
+                  </small>
+                </div>
+
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="calc-result-box">
+              <span class="text-uppercase fw-bold text-white opacity-75 small">Total Estimado Simulado</span>
+              <div id="calcTotalNumber" class="calc-total-number">$136.000</div>
+              <div id="calcBreakdown" class="text-white opacity-90 small mb-4">2 kg de Castillo Tradición (Media)</div>
+              
+              <button id="btnTransferQuote" class="btn btn-light text-dark fw-bold py-3 px-4 rounded-pill shadow">
+                <i class="bi bi-arrow-down-circle-fill me-1" aria-hidden="true"></i> Usar esta cotización en el formulario
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. GALERÍA VISUAL CON FILTROS Y LIGHTBOX MODAL -->
+    <section id="galeria" class="gallery-section" aria-labelledby="galleryHeading">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag"><i class="bi bi-images" aria-hidden="true"></i> Elementos Visuales</span>
+          <h2 id="galleryHeading" class="section-title">Nuestra Galería: Del Tambor a la Taza</h2>
+          <p class="section-desc">
+            Explora las instalaciones de nuestra tostaduría artesanal, los microlotes seleccionados y la magia de nuestras barras y talleres presenciales.
+          </p>
+        </div>
+
+        <!-- Botones de Filtrado Accesibles -->
+        <div class="gallery-filters" role="group" aria-label="Filtros de categoría de galería">
+          <button type="button" class="btn-filter active" data-filter="all">Todos</button>
+          <button type="button" class="btn-filter" data-filter="tostaduria">Tostaduría</button>
+          <button type="button" class="btn-filter" data-filter="variedades">Variedades</button>
+          <button type="button" class="btn-filter" data-filter="cafeteria">Barra de Café</button>
+          <button type="button" class="btn-filter" data-filter="talleres">Talleres</button>
+        </div>
+
+        <!-- Grilla de Imágenes -->
+        <div class="gallery-grid">
+          
+          <!-- Foto 1 -->
+          <div class="gallery-item" data-category="tostaduria" data-description="Proceso de tueste controlado mediante software de curvas de temperatura para extraer las notas florales del grano.">
+            <img src="https://images.unsplash.com/photo-1518832553480-cd0e625ed3e6?auto=format&fit=crop&w=600&q=80" 
+                 alt="Tostadora de café industrial artesanal tostando granos en tambor caliente" 
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Tostaduría</span>
+              <h3 class="gallery-item-title">Tambor de Tueste Artesanal</h3>
+              <small><i class="bi bi-zoom-in me-1" aria-hidden="true"></i>Clic para ampliar</small>
+            </div>
+          </div>
+
+          <!-- Foto 2 -->
+          <div class="gallery-item" data-category="variedades" data-description="Muestra de granos verdes y tostados de la variedad Geisha Los Andes cultivados a 1.850 msnm.">
+            <img src="https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=600&q=80" 
+                 alt="Granos de café de especialidad tostados exhibidos en un cuenco de cerámica" 
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Variedades</span>
+              <h3 class="gallery-item-title">Selección Grano a Grano</h3>
+              <small><i class="bi bi-zoom-in me-1" aria-hidden="true"></i>Clic para ampliar</small>
+            </div>
+          </div>
+
+          <!-- Foto 3 -->
+          <div class="gallery-item" data-category="cafeteria" data-description="Preparación de café de especialidad mediante método manual V60 con vertido en espiral uniforme.">
+            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" 
+                 alt="Barista vertiendo agua caliente con tetera cuello de cisne sobre cono de filtrado V60" 
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Barra de Café</span>
+              <h3 class="gallery-item-title">Extracción Manual en V60</h3>
+              <small><i class="bi bi-zoom-in me-1" aria-hidden="true"></i>Clic para ampliar</small>
+            </div>
+          </div>
+
+          <!-- Foto 4 -->
+          <div class="gallery-item" data-category="talleres" data-description="Participantes del taller de barismo aprendiendo a calibrar molienda fina y compactado para máquina de espresso.">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80" 
+                 alt="Grupo de estudiantes en taller práctico de barismo rodeando la máquina de café de especialidad" 
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Talleres</span>
+              <h3 class="gallery-item-title">Taller Barismo Profesional</h3>
+              <small><i class="bi bi-zoom-in me-1" aria-hidden="true"></i>Clic para ampliar</small>
+            </div>
+          </div>
+
+          <!-- Foto 5 -->
+          <div class="gallery-item" data-category="cafeteria" data-description="Taza de café con arte latte en forma de corazón servida con galleta artesanal sobre mesa de roble.">
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80" 
+                 alt="Taza de capuchino con arte latte sobre platillo de cerámica blanca en mesa de madera" 
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Barra de Café</span>
+              <h3 class="gallery-item-title">Arte Latte en Barra</h3>
+              <small><i class="bi bi-zoom-in me-1" aria-hidden="true"></i>Clic para ampliar</small>
+            </div>
+          </div>
+
+          <!-- Foto 6 -->
+          <div class="gallery-item" data-category="tostaduria" data-description="Sacos de yute con café verde recién llegados directamente desde las fincas aliadas en el Eje Cafetero.">
+            <img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?auto=format&fit=crop&w=600&q=80" 
+                 alt="Sacos de café verde de comercio justo apilados en el área de almacenamiento de la tostaduría" 
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-item-category">Tostaduría</span>
+              <h3 class="gallery-item-title">Sacos de Origen Directo</h3>
+              <small><i class="bi bi-zoom-in me-1" aria-hidden="true"></i>Clic para ampliar</small>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. SECCIÓN PROMOCIONES O INFORMACIÓN RELEVANTE -->
+    <section id="promociones" class="promotions-section" aria-labelledby="promoHeading">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag"><i class="bi bi-tag-fill" aria-hidden="true"></i> Ofertas Especiales</span>
+          <h2 id="promoHeading" class="section-title">Promociones &amp; Beneficios de Temporada</h2>
+          <p class="section-desc">
+            Aprovecha nuestros paquetes con descuento exclusivo y promociones por tiempo limitado para renovar tu equipo de preparación o probar nuevos orígenes.
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          
+          <!-- Banner Principal de Promoción con Temporizador -->
+          <div class="col-lg-8">
+            <div class="promo-banner-card h-100">
+              <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+                <span class="promo-badge-tag"><i class="bi bi-lightning-charge-fill me-1" aria-hidden="true"></i> 20% OFF - OFERTA DE TEMPORADA</span>
+                <span class="badge bg-warning text-dark fw-bold">Cupos Limitados</span>
+              </div>
+              
+              <h3 class="h2 text-white mb-3">Kit Barista Inicial + Bolsa Geisha 250g</h3>
+              <p class="text-light opacity-90 mb-4">
+                Lleva todo lo necesario para preparar café de especialidad en casa: Cono V60 de cerámica, servidor de vidrio térmico 600ml, 100 filtros de papel de fibra natural y una bolsa de nuestro galardonado <strong>Geisha Los Andes</strong> recién tostado.
+              </p>
+
+              <!-- Contador Regresivo Interactivo en JavaScript -->
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-clock-history text-warning fs-5" aria-hidden="true"></i>
+                <span class="text-white small fw-bold">Esta oferta expira en:</span>
+              </div>
+
+              <div class="promo-countdown" aria-label="Tiempo restante de la oferta">
+                <div class="countdown-box">
+                  <div id="countDays" class="countdown-value">02</div>
+                  <div class="countdown-unit">Días</div>
+                </div>
+                <div class="countdown-box">
+                  <div id="countHours" class="countdown-value">14</div>
+                  <div class="countdown-unit">Horas</div>
+                </div>
+                <div class="countdown-box">
+                  <div id="countMins" class="countdown-value">35</div>
+                  <div class="countdown-unit">Min</div>
+                </div>
+                <div class="countdown-box">
+                  <div id="countSecs" class="countdown-value">50</div>
+                  <div class="countdown-unit">Seg</div>
+                </div>
+              </div>
+
+              <div class="d-flex flex-wrap align-items-center gap-3 mt-4">
+                <div>
+                  <span class="text-decoration-line-through text-white opacity-50 fs-5">$185.000</span>
+                  <span class="fs-2 fw-bold text-warning ms-2">$148.000 COP</span>
+                </div>
+                <a href="#contacto" class="btn btn-coffee-primary ms-auto">
+                  <i class="bi bi-bag-check" aria-hidden="true"></i> Solicitar Kit en Promo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna Lateral de Promociones Secundarias -->
+          <div class="col-lg-4 d-flex flex-column gap-4">
+            
+            <div class="promo-mini-card flex-grow-1">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-success text-white">Beneficio Frecuente</span>
+                <i class="bi bi-truck fs-4 text-warning" aria-hidden="true"></i>
+              </div>
+              <h3 class="h5 mb-2">Envío Gratis Nacional</h3>
+              <p class="text-secondary small mb-3">
+                Por compras superiores a $100.000 COP en cualquiera de nuestros cafés de origen empacados. Entrega garantizada en 24 a 48 horas hábiles.
+              </p>
+              <a href="#productos" class="mt-auto fw-bold text-dark text-decoration-none small">
+                Ver cafés participantes <i class="bi bi-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="promo-mini-card flex-grow-1">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-primary text-white">Martes de Degustación</span>
+                <i class="bi bi-cup fs-4 text-warning" aria-hidden="true"></i>
+              </div>
+              <h3 class="h5 mb-2">2x1 en Filtrados en Barra</h3>
+              <p class="text-secondary small mb-3">
+                Todos los martes de 2:00 PM a 6:00 PM ven con un amigo a nuestra barra y disfruta de dos métodos manuales pagando solo uno.
+              </p>
+              <a href="#contacto" class="mt-auto fw-bold text-dark text-decoration-none small">
+                Cómo llegar a la barra <i class="bi bi-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. SECCIÓN PREGUNTAS FRECUENTES (FAQ ACORDEÓN ACCESIBLE) -->
+    <section id="faq" class="faq-section" aria-labelledby="faqHeading">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag"><i class="bi bi-question-circle-fill" aria-hidden="true"></i> Dudas Resueltas</span>
+          <h2 id="faqHeading" class="section-title">Preguntas Frecuentes sobre Nuestro Café</h2>
+          <p class="section-desc">
+            Encuentra respuestas inmediatas a las consultas más comunes sobre procesos, envíos y conservación.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            
+            <div class="accordion custom-accordion" id="accordionFaq">
+              
+              <!-- FAQ 1 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Cómo garantizan la frescura del café que envían?
+                  </button>
+                </h3>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    Tostamos semanalmente en pequeños lotes de 5 kg. Todas nuestras bolsas van fechadas con el día exacto de tueste y cuentan con válvula desgasificadora unidireccional. Garantizamos que tu pedido llega entre los días 5 y 15 posteriores a la curva de tueste, en el punto óptimo de reposo y desarrollo organoléptico.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 2 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Qué tipo de molienda debo seleccionar para mi cafetera?
+                  </button>
+                </h3>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    Si cuentas con molino en casa, siempre recomendamos <strong>Grano Entero</strong>. Si requieres que lo entreguemos molido: para máquina de espresso elige <em>Molienda Fina</em>; para cafetera de goteo, V60 o Chemex elige <em>Molienda Media</em>; y para Prensa Francesa o Cold Brew elige <em>Molienda Gruesa</em>.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 3 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Cómo funciona el Club de Suscripción Mensual?
+                  </button>
+                </h3>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    El club te entrega mensualmente dos bolsas de 250g con microlotes rotativos seleccionados por el maestro tostador. No hay permanencia mínima obligatoria y puedes pausar o cancelar tu membresía en cualquier momento sin costo adicional.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 4 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    ¿Qué incluye el servicio de catering corporativo para eventos?
+                  </button>
+                </h3>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    Incluye el montaje de una estación de café completa (máquina de espresso profesional, molino On-Demand y estación de filtrados), barista profesional certificado, leche entera y alternativas vegetales, vasos biodegradables y café ilimitado durante la duración convenida.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 5 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    ¿Qué métodos de pago reciben para las compras y pedidos?
+                  </button>
+                </h3>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    Aceptamos transferencias bancarias directas, tarjetas de débito/crédito, transferencias electrónicas por Nequi/Daviplata y pago contra entrega en nuestra tostaduría física <code>[Simulado]</code>.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 8. SECCIÓN CONTACTO Y UBICACIÓN -->
+    <section id="contacto" class="contact-section" aria-labelledby="contactHeading">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag"><i class="bi bi-envelope-fill" aria-hidden="true"></i> Atención Comercial</span>
+          <h2 id="contactHeading" class="section-title">Hablemos de Buen Café: Contacto &amp; Cotizaciones</h2>
+          <p class="section-desc">
+            ¿Deseas encargar café para tu hogar, cotizar un evento empresarial o inscribirte a un taller? Escríbenos y te responderemos en menos de 2 horas.
+          </p>
+        </div>
+
+        <div class="row g-5">
+          
+          <!-- Columna Izquierda: Información de la Empresa -->
+          <div class="col-lg-5">
+            <div class="contact-info-card">
+              <h3 class="h4 text-white mb-4">Información de Contacto</h3>
+              
+              <div class="contact-item">
+                <div class="contact-icon-circle">
+                  <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h4 class="h6 text-warning mb-1">Dirección de la Tostaduría</h4>
+                  <p class="text-light opacity-90 small mb-0">Calle de los Artesanos #45-18, Barrio Histórico, Ciudad Gourmet <code>[Simulado]</code></p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon-circle">
+                  <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h4 class="h6 text-warning mb-1">Teléfono &amp; Pedidos</h4>
+                  <p class="text-light opacity-90 small mb-0">(+57) 300 123 4567 / Línea Fija: (601) 789 0123</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon-circle">
+                  <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h4 class="h6 text-warning mb-1">Correo Electrónico</h4>
+                  <p class="text-light opacity-90 small mb-0">pedidos@aromaygrano.com &bull; eventos@aromaygrano.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon-circle">
+                  <i class="bi bi-clock-fill" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h4 class="h6 text-warning mb-1">Horario de Tostaduría &amp; Barra</h4>
+                  <p class="text-light opacity-90 small mb-0">
+                    Lunes a Viernes: 7:30 AM - 7:00 PM<br>
+                    Sábados: 8:30 AM - 6:00 PM<br>
+                    Domingos y Festivos: Cerrado por labores de tueste
+                  </p>
+                </div>
+              </div>
+
+              <!-- Simulación de Mapa de Ubicación -->
+              <div class="map-placeholder-box mt-4">
+                <i class="bi bi-pin-map-fill fs-2 text-warning mb-2" aria-hidden="true"></i>
+                <div class="fw-bold text-dark small">Barra &amp; Taller Aroma &amp; Grano</div>
+                <small class="text-muted">Zona de fácil parqueo &bull; Acceso para ciclistas</small>
+                <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-dark mt-2 py-1 px-3">
+                  <i class="bi bi-box-arrow-up-right me-1" aria-hidden="true"></i> Ver en Google Maps
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Formulario con Validación JS (RF-07) -->
+          <div class="col-lg-7">
+            <div class="contact-form-card">
+              <h3 class="h4 mb-4">Envíanos un Mensaje</h3>
+              
+              <form id="contactForm" novalidate>
+                
+                <div class="row g-3">
+                  
+                  <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre y Apellido *</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ej. Camila Restrepo" required minlength="3">
+                    <div class="invalid-feedback">Por favor ingresa tu nombre (mínimo 3 caracteres).</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Correo Electrónico *</label>
+                    <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com" required>
+                    <div class="invalid-feedback">Por favor ingresa un correo electrónico válido.</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="telefono" class="form-label">Teléfono Móvil *</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Ej. 300 123 4567" required minlength="7">
+                    <div class="invalid-feedback">Por favor ingresa un número de teléfono válido (mínimo 7 dígitos).</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="motivo" class="form-label">Motivo de Contacto *</label>
+                    <select class="form-select" id="motivo" required>
+                      <option value="pedido" selected>Pedido de Café en Grano / Molido</option>
+                      <option value="suscripcion">Club de Suscripción Mensual</option>
+                      <option value="taller">Inscripción a Taller de Barismo</option>
+                      <option value="corporativo">Catering Corporativo para Eventos</option>
+                      <option value="general">Consulta General / Proveedores</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="mensaje" class="form-label">Detalles del Mensaje o Pedido *</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Cuéntanos qué variedades te interesan, tipo de molienda o fecha estimada de tu evento..." required minlength="10"></textarea>
+                    <div class="invalid-feedback">Por favor describe tu mensaje (mínimo 10 caracteres).</div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="terminos" required checked>
+                      <label class="form-check-label small text-muted" for="terminos">
+                        Acepto la política de tratamiento de datos personales para la atención comercial <code>[Simulado]</code>.
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-coffee-primary w-100 py-3">
+                      <i class="bi bi-send-fill" aria-hidden="true"></i> Enviar Mensaje Comercial
+                    </button>
+                  </div>
+
+                </div>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       PIE DE PÁGINA (FOOTER)
+       ========================================================================== -->
+  <footer class="footer-corporate">
+    <div class="container">
+      <div class="row g-4 justify-content-between">
+        
+        <!-- Columna 1: Identidad Corporativa -->
+        <div class="col-lg-4 col-md-6">
+          <div class="mb-3">
+            <img src="img/logo.svg" alt="Aroma &amp; Grano Tostaduría Artesanal" height="42" class="bg-light p-1 rounded-2">
+          </div>
+          <p class="small text-secondary mb-3">
+            Tostaduría artesanal comprometida con la dignidad del caficultor y la perfección del grano de alta montaña. Tueste ético en pequeños lotes para paladares conscientes.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" class="social-icon-btn" aria-label="Visitar nuestro Instagram (Simulado)" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://facebook.com" class="social-icon-btn" aria-label="Visitar nuestro Facebook (Simulado)" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://linkedin.com" class="social-icon-btn" aria-label="Visitar nuestro perfil corporativo en LinkedIn (Simulado)" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://youtube.com" class="social-icon-btn" aria-label="Visitar nuestro canal de YouTube (Simulado)" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-youtube" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Columna 2: Enlaces Rápidos de Navegación -->
+        <div class="col-lg-2 col-md-6">
+          <h3 class="h5">Enlaces Rápidos</h3>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nuestra Tostaduría</a></li>
+            <li><a href="#productos">Cafés de Origen</a></li>
+            <li><a href="#cotizador">Calculadora de Pedido</a></li>
+            <li><a href="#galeria">Galería Visual</a></li>
+            <li><a href="#promociones">Ofertas &amp; Kits</a></li>
+            <li><a href="#contacto">Contacto &amp; Horarios</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Servicios y Formación -->
+        <div class="col-lg-3 col-md-6">
+          <h3 class="h5">Experiencias &amp; B2B</h3>
+          <ul class="footer-links">
+            <li><a href="#productos">Club de Suscripción Mensual</a></li>
+            <li><a href="#productos">Taller de Barismo Básico</a></li>
+            <li><a href="#productos">Cata Sensorial Guiada</a></li>
+            <li><a href="#contacto">Estaciones de Café para Oficinas</a></li>
+            <li><a href="#contacto">Venta Mayorista a Restaurantes</a></li>
+            <li><a href="#faq">Preguntas Frecuentes</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 4: Boletín Informativo (Newsletter) -->
+        <div class="col-lg-3 col-md-6">
+          <h3 class="h5">Boletín Cafetero</h3>
+          <p class="small text-secondary mb-3">
+            Recibe notas de cata exclusivas, recetas de extracción y alertas cuando liberamos microlotes de edición limitada.
+          </p>
+          <form id="newsletterForm">
+            <div class="input-group mb-2">
+              <input type="email" class="form-control form-control-sm" placeholder="Tu correo electrónico" aria-label="Correo electrónico para boletín" required>
+              <button class="btn btn-coffee-primary btn-sm" type="submit">Unirme</button>
+            </div>
+            <small class="text-secondary opacity-75" style="font-size: 0.75rem;">Cero spam. Solo café de verdad.</small>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Barra de Copyright y Aviso Legal -->
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div>
+          &copy; 2026 <strong>Aroma &amp; Grano Tostaduría Artesanal</strong>. Todos los derechos reservados.
+        </div>
+        <div class="badge bg-dark border border-secondary text-light p-2">
+          Proyecto Desarrollado mediante Agente Inteligente &bull; <code>[Caso Simulado]</code>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL LIGHTBOX ACCESIBLE PARA GALERÍA (RF-05)
+       ========================================================================== -->
+  <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-secondary">
+        <div class="modal-header border-secondary">
+          <h4 class="modal-title h5 text-warning" id="modalTitle">Detalle Fotográfico</h4>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar modal"></button>
+        </div>
+        <div class="modal-body p-0 text-center">
+          <img id="modalImage" src="" alt="" class="img-fluid w-100" style="max-height: 520px; object-fit: contain;">
+        </div>
+        <div class="modal-footer border-secondary justify-content-between">
+          <p id="modalDesc" class="small text-light opacity-75 mb-0 text-start"></p>
+          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       NOTIFICACIÓN TOAST ACCESIBLE DE ÉXITO (RF-08)
+       ========================================================================== -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1060;">
+    <div id="toastSuccess" class="toast align-items-center text-bg-success border-0 shadow-lg" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body fs-6 py-3">
+          <!-- Mensaje inyectado por JS -->
+          ¡Mensaje recibido con éxito!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar notificación"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón Flotante Directo de WhatsApp -->
+  <a href="https://wa.me/573001234567?text=Hola%20Aroma%20y%20Grano,%20quisiera%20informaci%C3%B3n%20sobre%20sus%20caf%C3%A9s%20de%20origen" 
+     class="floating-whatsapp" 
+     aria-label="Contactar directamente por WhatsApp a la tostaduría" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <i class="bi bi-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- Botón Flotante "Volver Arriba" -->
+  <button id="btnBackToTop" class="btn-back-to-top" type="button" aria-label="Volver al inicio de la página">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Bootstrap 5.3 Bundle JS Oficial (con Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <!-- Script Principal de la Aplicación -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
